@@ -31,13 +31,15 @@
         <![endif]-->
         <!-- The following CSS are included as plugins and can be removed if unused-->
 
+        <link href="assets/plugins/chartist/dist/chartist.min.css" type="text/css" rel="stylesheet"> <!-- chartist -->
+
 
     </head>
 
     <body class="horizontal-nav animated-content infobar-overlay">
 
     	<div id="wrapper">
-    		<nav class="navbar navbar-default" role="navigation" id="headernav">
+    		<nav class="navbar navbar-indigo" role="navigation" id="headernav">
     			<div class="navbar-header">
     				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#horizontal-navbar">
     					<i class="fa fa-bars"></i>
@@ -82,7 +84,33 @@
     										<div class="panel-ctrls" data-actions-container="" data-action-collapse='{"target": ".panel-body"}'></div>
     									</div>
     									<div class="panel-body">
-    										Asperiores porro eveniet debitis quas sed harum nobis libero voluptatibus dolorum odio at veniam aut id corrupti hic amet consectetur adipisicing tenetur ex ea dignissimos volupta elit esse quisquam fugiat.
+    										<table class="table table-striped">
+    											<thead>
+    												<th>Queue</th>
+    												<th>Count</th>
+    											</thead>
+    											<tbody>
+    												<tr>
+    													<td>A</td>
+    													<td>B</td>
+    												</tr>
+    												<tr>
+    													<td>C</td>
+    													<td>D</td>
+    												</tr>
+    												<tr>
+    													<td>E</td>
+    													<td>F</td>
+    												</tr>
+    											</tbody>
+    										</table>
+    										<div id="chartistPie1"></div>
+    										<div class="pt-md pull-left">
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">In</small>10,000</h4>
+    										</div>
+    										<div class="pt-md pull-right text-right">
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">Out</small>10,000</h4>
+    										</div>
     									</div>
     								</div>
     							</div>
@@ -93,7 +121,33 @@
     										<div class="panel-ctrls" data-actions-container="" data-action-collapse='{"target": ".panel-body"}'></div>
     									</div>
     									<div class="panel-body">
-    										Asperiores porro eveniet debitis quas sed harum nobis libero voluptatibus dolorum odio at veniam aut id corrupti hic amet consectetur adipisicing tenetur ex ea dignissimos volupta elit esse quisquam fugiat.
+    										<table class="table table-striped">
+    											<thead>
+    												<th>Queue</th>
+    												<th>Count</th>
+    											</thead>
+    											<tbody>
+    												<tr>
+    													<td>A</td>
+    													<td>B</td>
+    												</tr>
+    												<tr>
+    													<td>C</td>
+    													<td>D</td>
+    												</tr>
+    												<tr>
+    													<td>E</td>
+    													<td>F</td>
+    												</tr>
+    											</tbody>
+    										</table>
+    										<div id="chartistPie2"></div>
+    										<div class="pt-md pull-left">
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">In</small>4,986</h4>
+    										</div>
+    										<div class="pt-md pull-right text-right">
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">Out</small>950</h4>
+    										</div>
     									</div>
     								</div>
     							</div>
@@ -104,7 +158,33 @@
     										<div class="panel-ctrls" data-actions-container="" data-action-collapse='{"target": ".panel-body"}'></div>
     									</div>
     									<div class="panel-body">
-    										Asperiores porro eveniet debitis quas sed harum nobis libero voluptatibus dolorum odio at veniam aut id corrupti hic amet consectetur adipisicing tenetur ex ea dignissimos volupta elit esse quisquam fugiat.
+    										<table class="table table-striped">
+    											<thead>
+    												<th>Queue</th>
+    												<th>Count</th>
+    											</thead>
+    											<tbody>
+    												<tr>
+    													<td>A</td>
+    													<td>B</td>
+    												</tr>
+    												<tr>
+    													<td>C</td>
+    													<td>D</td>
+    												</tr>
+    												<tr>
+    													<td>E</td>
+    													<td>F</td>
+    												</tr>
+    											</tbody>
+    										</table>
+    										<div id="chartistPie3"></div>
+    										<div class="pt-md pull-left">
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">In</small>4,986</h4>
+    										</div>
+    										<div class="pt-md pull-right text-right">
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">Out</small>950</h4>
+    										</div>
     									</div>
     								</div>
     							</div>
@@ -115,225 +195,99 @@
     										<div class="panel-ctrls" data-actions-container="" data-action-collapse='{"target": ".panel-body"}'></div>
     									</div>
     									<div class="panel-body">
-    										Asperiores porro eveniet debitis quas sed harum nobis libero voluptatibus dolorum odio at veniam aut id corrupti hic amet consectetur adipisicing tenetur ex ea dignissimos volupta elit esse quisquam fugiat.
+    										<table class="table table-striped">
+    											<thead>
+    												<th>Queue</th>
+    												<th>Count</th>
+    											</thead>
+    											<tbody>
+    												<tr>
+    													<td>A</td>
+    													<td>B</td>
+    												</tr>
+    												<tr>
+    													<td>C</td>
+    													<td>D</td>
+    												</tr>
+    												<tr>
+    													<td>E</td>
+    													<td>F</td>
+    												</tr>
+    											</tbody>
+    										</table>
+    										<div id="chartistPie4"></div>
+    										<div class="pt-md pull-left">
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">In</small>4,986</h4>
+    										</div>
+    										<div class="pt-md pull-right text-right">
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">Out</small>950</h4>
+    										</div>
     									</div>
     								</div>
     							</div>
 
     							<div class="col-md-12">
-    								<div class="panel panel-default" data-widget='{"draggable": "false"}'>
+    								<div class="panel panel-default ov-h" data-widget='{"draggable": "false"}'>
     									<div class="panel-heading">
     										<h2>Panel</h2>
     										<div class="panel-ctrls" data-actions-container="" data-action-collapse='{"target": ".panel-body"}'></div>
     									</div>
+    									<div class="panel-controls dropdown">
+    										<button class="btn btn-icon-rounded dropdown-toggle" data-toggle="dropdown"><span class="material-icons inverted">more_vert</span></button>
+    										<ul class="dropdown-menu" role="menu">
+    											<li><a href="#">Action</a></li>
+    											<li><a href="#">Another action</a></li>
+    											<li><a href="#">Something else here</a></li>
+    											<li class="divider"></li>
+    											<li><a href="#">Separated link</a></li>
+    										</ul>
+    									</div>
+    									<div class="panel-body ov-h">
+    										<div class="pb-md">
+
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">Page views</small>4,986</h4>
+    										</div>
+    										<div class="pb-md">
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">Visitors</small>950</h4>
+    										</div>
+    										<div class="pb-md">
+    											<h4 class="mt-n mb-n pt-xs"><small class="mt-n mb-sm">Guests</small>19,862</h4>
+    										</div>
+    									</div>
+    									<div id="areaChart2" class="chartist-full-width"></div>
     									<div class="panel-body">
-    										Asperiores porro eveniet debitis quas sed harum nobis libero voluptatibus dolorum odio at veniam aut id corrupti hic amet consectetur adipisicing tenetur ex ea dignissimos volupta elit esse quisquam fugiat.
+    										<div class="panel-footer">
+    											<span class="text-gray"><em>Footer</em></span>
+    										</div>
     									</div>
-    									<div class="panel-footer">
-											<span class="text-gray"><em>Footer</em></span>
-										</div>
-    								</div>    								
+    								</div>
     							</div>
-    						</div>
-    						
+    						</div> <!-- .row -->
 
-    					</div> <!-- .container-fluid -->
-    				</div> <!-- #page-content -->
-    			</div>
-    		</div>
-
-    	</div>
-
-    	<div class="infobar-wrapper scroll-pane">
-    		<div class="infobar scroll-content">
+    					
+    							
+    							
 
 
-    			<ul class="nav nav-tabs material-nav-tabs stretch-tabs icon-tabs">
-    				<li ><a href="#tab-7-1" data-toggle="tab">
-    					<i class="material-icons">settings</i>
-    				</a></li>
-    				<li class="active "><a href="#tab-7-2" data-toggle="tab"><span class="step size-64">
-    					<i class="material-icons">textsms</i>
-    				</span></a>
-    			</li>
-    		</ul>
-
-
-    		<div class="tab-content">
-    			<div class="tab-pane" id="tab-7-1">
-
-    				<table class="table table-settings">
-    					<tbdody>
-    						<tr>
-    							<td>
-    								<h5>Alerts</h5>
-    								<p>Sets alerts to get notified when changes occur to get new alerming items</p>
-    							</td>
-    							<td><span class="togglebutton toggle-info"><label><input type="checkbox"> </label></span></td>
-    						</tr>
-    						<tr>
-    							<td>
-    								<h5>Notifications</h5>
-    								<p>You will receive notification email for any notifications if you set notification</p>
-    							</td>
-    							<td><span class="togglebutton toggle-primary"><label><input type="checkbox" class="toggle"  checked=""> </label></span></td>
-    						</tr>
-    						<tr>
-    							<td>
-    								<h5>Messages</h5>
-    								<p>You will receive notification on email after setting messages notifications</p>                            
-    							</td>
-    							<td>
-    								<span class="togglebutton toggle-danger"><label><input type="checkbox" > </label></span>
-    							</td>
-    						</tr>
-    						<tr>
-    							<td>
-    								<h5>Warnings</h5>
-    								<p>You will get warnning only some specific setttings or alert system</p>
-    							</td>
-    							<td>
-    								<span class="togglebutton toggle-warning"><label><input type="checkbox" checked=""> </label></span>
-    							</td>
-    						</tr>
-    						<tr>
-    							<td>
-    								<h5>Sidebar</h5>
-    								<p>You can hide/show use with sidebar collapsw settings</p>
-    							</td>
-    							<td><span class="togglebutton toggle-success"><label><input type="checkbox" checked=""> </label></span></td>
-    						</tr>
-    					</tbdody>
-    				</table>
-
-    			</div>
-    			<div class="tab-pane active" id="tab-7-2">
-
-    				<div class="widget">
-    					<div class="widget-heading">Recent Activities</div>
-    					<div class="widget-body">
-    						<ul class="timeline">
-    							<li class="timeline-purple">
-    								<div class="timeline-icon"><i class="material-icons">add</i></div>
-    								<div class="timeline-body">
-    									<div class="timeline-header">
-    										<span class="author">Jana Pena is now Follwing you</span>
-    										<span class="date">2 min ago</span>
-    									</div>
-    								</div>
-    							</li>
-    							<li class="timeline-primary">
-    								<div class="timeline-icon"><i class="material-icons">textsms</i></div>
-    								<div class="timeline-body">
-    									<div class="timeline-header">
-    										<span class="author">Percy liaye Like your picture</span>
-    										<span class="date">6 min ago</span>
-    									</div>
-    								</div>
-    							</li>
-    							<li class="timeline-green">
-    								<div class="timeline-icon"><i class="material-icons">done</i></div>
-    								<div class="timeline-body">
-    									<div class="timeline-header">
-    										<span class="author">Leon miles make your presentation for new project</span>
-    										<span class="date">2 hours ago</span>
-    									</div>
-    								</div>
-    							</li>
-    							<li class="timeline-danger">
-    								<div class="timeline-icon"><i class="material-icons">favorite</i></div>
-    								<div class="timeline-body">
-    									<div class="timeline-header">
-    										<span class="author">Lake wile like your comment</span>
-    										<span class="date">5 hours ago</span>
-    									</div>
-    								</div>
-    							</li>
-    							<li class="timeline-sky">
-    								<div class="timeline-icon"><i class="material-icons">attach_money</i></div>
-    								<div class="timeline-body">
-    									<div class="timeline-header">
-    										<span class="author">The Mountain Ambience paid your payment</span>
-    										<span class="date">9 hours ago</span>
-    									</div>
-    								</div>
-    							</li>
-    						</ul>
-    					</div>
+    						</div> <!-- .container-fluid -->
+    					</div> <!-- #page-content -->
     				</div>
-
-    				<div class="widget">
-    					<div class="widget-heading">Contacts</div>
-    					<div class="widget-body">
-    						<ul class="media-list contacts">
-    							<li class="media notification-message">
-    								<div class="media-left">
-    									<img class="img-circle avatar" src="assets/demo/avatar/avatar_01.png" alt="" />
-    								</div>
-    								<div class="media-body">
-    									<span class="text-gray">Jon Owens</span>
-    									<span class="contact-status text-success">Online</span>
-    								</div>
-    							</li>
-    							<li class="media notification-message">
-    								<div class="media-left">
-    									<img class="img-circle avatar" src="assets/demo/avatar/avatar_02.png" alt="" />
-    								</div>
-    								<div class="media-body">
-    									<span class="text-gray">Nina Huges</span>
-    									<span class="contact-status text-muted">Offline</span>
-    								</div>
-    							</li>
-    							<li class="media notification-message">
-    								<div class="media-left">
-    									<img class="img-circle avatar" src="assets/demo/avatar/avatar_03.png" alt="" />
-    								</div>
-    								<div class="media-body">
-    									<span class="text-gray">Austin Lee</span>
-    									<span class="contact-status text-danger">Busy</span>
-    								</div>
-    							</li>
-    							<li class="media notification-message">
-    								<div class="media-left">
-    									<img class="img-circle avatar" src="assets/demo/avatar/avatar_04.png" alt="" />
-    								</div>
-    								<div class="media-body">
-    									<span class="text-gray">Grady Hines</span>
-    									<span class="contact-status text-warning">Away</span>
-    								</div>
-    							</li>
-    							<li class="media notification-message">
-    								<div class="media-left">
-    									<img class="img-circle avatar" src="assets/demo/avatar/avatar_06.png" alt="" />
-    								</div>
-    								<div class="media-body">
-    									<span class="text-gray">Adrian Barton</span>
-    									<span class="contact-status text-success">Online</span>
-    								</div>
-    							</li>
-    						</ul>                                
-    					</div>
-    				</div>
-
-
     			</div>
+
     		</div>
-
     	</div>
-
     </div>
-</div>
 
-<footer role="contentinfo">
-	<div class="clearfix">
-		<ul class="list-unstyled list-inline pull-left">
-			<li><h6 style="margin: 0;">&copy; 2016 andreydanil</h6></li>
-		</ul>
-	</div>
-</footer>
+    <footer role="contentinfo">
+    	<div class="clearfix">
+    		<ul class="list-unstyled list-inline pull-left">
+    			<li><h6 style="margin: 0;">&copy; 2016 andreydanil</h6></li>
+    		</ul>
+    	</div>
+    </footer>
 
 
-<!-- Load site level scripts -->
+    <!-- Load site level scripts -->
 
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script> -->
@@ -385,15 +339,19 @@
 
 <!-- Load page level scripts-->
 
+<script src="assets/plugins/chartist/dist/chartist.min.js"></script>          <!-- chartist -->
+
 <script src="assets/plugins/charts-flot/jquery.flot.min.js"></script>             <!-- Flot Main File -->
 <script src="assets/plugins/charts-flot/jquery.flot.stack.min.js"></script>       <!-- Flot Stacked Charts Plugin -->
 <script src="assets/plugins/charts-flot/jquery.flot.pie.min.js"></script>         <!-- Flot Pie Chart Plugin -->
 <script src="assets/plugins/charts-flot/jquery.flot.orderBars.min.js"></script>   <!-- Flot Ordered Bars Plugin-->
 <script src="assets/plugins/charts-flot/jquery.flot.resize.js"></script>          <!-- Flot Responsive -->
-
 <script src="assets/plugins/charts-flot/jquery.flot.tooltip.min.js"></script>    <!-- Flot Tooltips -->
 
-<script src="assets/demo/demo-flotgraph.js"></script>
+
+<script src="assets/demo/demo-cards.js"></script>                             <!-- Initialize scripts for this page-->
+
+
 
 
 
