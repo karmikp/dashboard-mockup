@@ -57,7 +57,7 @@ $(function() {
     low: 0,
     showArea: true,
     fullWidth: true,
-    fullWidth: true,
+    fullWidth: true,        
     showPoint: false,
     colors:["#9c27b0"],
     axisY: {

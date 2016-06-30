@@ -32,14 +32,22 @@
         <!-- The following CSS are included as plugins and can be removed if unused-->
 
         <link href="assets/plugins/chartist/dist/chartist.min.css" type="text/css" rel="stylesheet"> <!-- chartist -->
+        <style>
+            .ct-series-a .ct-area, .ct-series-a .ct-slice-pie {
+              fill: #66bb6a;
+            }
 
+            .ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+              stroke: #66bb6a;
+            }
+        </style>
 
     </head>
 
     <body class="horizontal-nav animated-content infobar-overlay">
 
     	<div id="wrapper">
-    		<nav class="navbar navbar-indigo" role="navigation" id="headernav">
+    		<nav class="navbar navbar-default" role="navigation" id="headernav">
     			<div class="navbar-header">
     				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#horizontal-navbar">
     					<i class="fa fa-bars"></i>
